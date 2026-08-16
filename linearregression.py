@@ -9,7 +9,7 @@ from ISLP import load_data
 from ISLP.models import ModelSpec as MS, summarize, poly
 
 dir()
-# print(dir())
+print(dir())
 A = np.array([3, 5, 11])
 dir(A)
 print("Sum of A:", A.sum())
