@@ -14,6 +14,7 @@ A = np.array([3, 5, 11])
 dir(A)
 print("Sum of A:", A.sum())
 # Simple Linear Regression
+
 Boston = load_data("Boston")
 # print(Boston.columns)
 X = pd.DataFrame({"intercept": np.ones(Boston.shape[0]), "lstat": Boston["lstat"]})
